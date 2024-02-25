@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-style:Gilroy;
+}
+
+html, body{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+  background-color: rgba(188, 195, 194, 0.269);
+  width: 30% ;
+  height: 40%;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  padding: 50px;
+  box-shadow: 5px 5px rgba(83, 80, 80, 0.715);
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%; 
+}
+#main h2{
+  color: white;
+  position: absolute;
+  top: 18%;
+  left: 25%;
+  font-family: Gilroy ;
+}
+#main04{
+  position: absolute;
+}
+
+#imgmain img{
+  height: 100%;
+  width: 100%;
+  padding:0.5px;
+  object-fit: cover;
+
+}
+#main form{
+  position: relative;
+  top:30%;
+  left: 10%;
+
+}
+
+#main form #I2{
+  padding: 10px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius:25px;
+  box-shadow: 5px 5px rgba(126, 114, 114, 0.715);
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+#main form #S1{
+  position: absolute;
+  padding: 10px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius:25px;
+  margin-bottom: 10px;
+  left: 20%;
+  box-shadow: 5px 5px rgba(126, 117, 117, 0.715);
+}
+
+#cloud{
+  margin-left: 10px;
+}
+
+#main04{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:90%;
+  left:25%;
+  color: rgb(254, 79, 90);
+ font-family: Gilroy ;
+}
+
+#front{
+  width: 30%; 
+  height: 60%; 
+  /* background-color: black;  */
+  position: absolute; 
+  font-family: Gilroy;
+  display: table-column;
+  justify-content: center;
+  text-align: center;
+  top: 25%;
+  left:40%;
+  transform: translate(-50% -50%);
+  z-index: 9999;
+  color: whitesmoke;
+}
+
+#front .dets{
+
+  width:60%;
+  font-family: Gilroy Light;
+  height: 10%;
+  margin-bottom:15px;
+  padding:10px;
+  border: solid 2px black;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(37, 41, 46, 0.167);
+}
+#imgdiv{
+  padding: 0.2;
+}
+
+.dets .B .b{
+  background-color: none;
+  color:white;
+  text-decoration: none;
+  font-family: Gilroy Light;
+}
+.SB .B .b{
+  position: absolute;
+  text-decoration: none;
+  color: rgb(254, 79, 90);
+}
+.B{
+  border: none;
+  background-color: transparent;
+}
+.B i{
+  font-family: Gilroy Light;
+ color: white;
+}
+#imgdiv img{
+  width: 100%;
+  height: 100%;
+}
